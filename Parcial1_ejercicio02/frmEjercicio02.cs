@@ -40,5 +40,10 @@ namespace Parcial1_ejercicio02
 
 
         }
+
+        private void btnSaludar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola, felices fiestas!!!");
+        }
     }
 }

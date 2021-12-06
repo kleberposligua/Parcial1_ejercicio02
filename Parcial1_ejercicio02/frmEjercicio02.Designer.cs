@@ -33,6 +33,7 @@
             this.btnCalcular = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.lstPalabras = new System.Windows.Forms.ListBox();
+            this.btnSaludar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -81,11 +82,22 @@
             this.lstPalabras.Size = new System.Drawing.Size(394, 204);
             this.lstPalabras.TabIndex = 4;
             // 
+            // btnSaludar
+            // 
+            this.btnSaludar.Location = new System.Drawing.Point(479, 229);
+            this.btnSaludar.Name = "btnSaludar";
+            this.btnSaludar.Size = new System.Drawing.Size(274, 99);
+            this.btnSaludar.TabIndex = 5;
+            this.btnSaludar.Text = "SALUDAR";
+            this.btnSaludar.UseVisualStyleBackColor = true;
+            this.btnSaludar.Click += new System.EventHandler(this.btnSaludar_Click);
+            // 
             // frmEjercicio02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSaludar);
             this.Controls.Add(this.lstPalabras);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnCalcular);
@@ -105,6 +117,7 @@
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox lstPalabras;
+        private System.Windows.Forms.Button btnSaludar;
     }
 }
 
